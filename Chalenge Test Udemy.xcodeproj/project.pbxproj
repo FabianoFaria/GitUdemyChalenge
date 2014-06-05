@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047D2AC91940D096008E6AA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047D2AC81940D096008E6AA9 /* Foundation.framework */; };
+		047D2ACB1940D096008E6AA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047D2ACA1940D096008E6AA9 /* CoreGraphics.framework */; };
+		047D2ACD1940D096008E6AA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047D2ACC1940D096008E6AA9 /* UIKit.framework */; };
+		047D2AD31940D096008E6AA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 047D2AD11940D096008E6AA9 /* InfoPlist.strings */; };
+		047D2AD51940D096008E6AA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D2AD41940D096008E6AA9 /* main.m */; };
+		047D2AD91940D096008E6AA9 /* CTUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D2AD81940D096008E6AA9 /* CTUAppDelegate.m */; };
+		047D2ADC1940D097008E6AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047D2ADA1940D097008E6AA9 /* Main.storyboard */; };
+		047D2ADF1940D097008E6AA9 /* CTUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D2ADE1940D097008E6AA9 /* CTUViewController.m */; };
+		047D2AE11940D097008E6AA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047D2AE01940D097008E6AA9 /* Images.xcassets */; };
+		047D2AE81940D097008E6AA9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047D2AE71940D097008E6AA9 /* XCTest.framework */; };
+		047D2AE91940D097008E6AA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047D2AC81940D096008E6AA9 /* Foundation.framework */; };
+		047D2AEA1940D097008E6AA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047D2ACC1940D096008E6AA9 /* UIKit.framework */; };
+		047D2AF21940D097008E6AA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 047D2AF01940D097008E6AA9 /* InfoPlist.strings */; };
+		047D2AF41940D097008E6AA9 /* Chalenge_Test_UdemyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D2AF31940D097008E6AA9 /* Chalenge_Test_UdemyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047D2AEB1940D097008E6AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047D2ABD1940D096008E6AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047D2AC41940D096008E6AA9;
+			remoteInfo = "Chalenge Test Udemy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047D2AC51940D096008E6AA9 /* Chalenge Test Udemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chalenge Test Udemy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047D2AC81940D096008E6AA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		047D2ACA1940D096008E6AA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		047D2ACC1940D096008E6AA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		047D2AD01940D096008E6AA9 /* Chalenge Test Udemy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chalenge Test Udemy-Info.plist"; sourceTree = "<group>"; };
+		047D2AD21940D096008E6AA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		047D2AD41940D096008E6AA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047D2AD61940D096008E6AA9 /* Chalenge Test Udemy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chalenge Test Udemy-Prefix.pch"; sourceTree = "<group>"; };
+		047D2AD71940D096008E6AA9 /* CTUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTUAppDelegate.h; sourceTree = "<group>"; };
+		047D2AD81940D096008E6AA9 /* CTUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTUAppDelegate.m; sourceTree = "<group>"; };
+		047D2ADB1940D097008E6AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047D2ADD1940D097008E6AA9 /* CTUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTUViewController.h; sourceTree = "<group>"; };
+		047D2ADE1940D097008E6AA9 /* CTUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTUViewController.m; sourceTree = "<group>"; };
+		047D2AE01940D097008E6AA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		047D2AE61940D097008E6AA9 /* Chalenge Test UdemyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chalenge Test UdemyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047D2AE71940D097008E6AA9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		047D2AEF1940D097008E6AA9 /* Chalenge Test UdemyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chalenge Test UdemyTests-Info.plist"; sourceTree = "<group>"; };
+		047D2AF11940D097008E6AA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		047D2AF31940D097008E6AA9 /* Chalenge_Test_UdemyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chalenge_Test_UdemyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047D2AC21940D096008E6AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D2ACB1940D096008E6AA9 /* CoreGraphics.framework in Frameworks */,
+				047D2ACD1940D096008E6AA9 /* UIKit.framework in Frameworks */,
+				047D2AC91940D096008E6AA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047D2AE31940D097008E6AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D2AE81940D097008E6AA9 /* XCTest.framework in Frameworks */,
+				047D2AEA1940D097008E6AA9 /* UIKit.framework in Frameworks */,
+				047D2AE91940D097008E6AA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047D2ABC1940D096008E6AA9 = {
+			isa = PBXGroup;
+			children = (
+				047D2ACE1940D096008E6AA9 /* Chalenge Test Udemy */,
+				047D2AED1940D097008E6AA9 /* Chalenge Test UdemyTests */,
+				047D2AC71940D096008E6AA9 /* Frameworks */,
+				047D2AC61940D096008E6AA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047D2AC61940D096008E6AA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047D2AC51940D096008E6AA9 /* Chalenge Test Udemy.app */,
+				047D2AE61940D097008E6AA9 /* Chalenge Test UdemyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047D2AC71940D096008E6AA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				047D2AC81940D096008E6AA9 /* Foundation.framework */,
+				047D2ACA1940D096008E6AA9 /* CoreGraphics.framework */,
+				047D2ACC1940D096008E6AA9 /* UIKit.framework */,
+				047D2AE71940D097008E6AA9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		047D2ACE1940D096008E6AA9 /* Chalenge Test Udemy */ = {
+			isa = PBXGroup;
+			children = (
+				047D2AD71940D096008E6AA9 /* CTUAppDelegate.h */,
+				047D2AD81940D096008E6AA9 /* CTUAppDelegate.m */,
+				047D2ADA1940D097008E6AA9 /* Main.storyboard */,
+				047D2ADD1940D097008E6AA9 /* CTUViewController.h */,
+				047D2ADE1940D097008E6AA9 /* CTUViewController.m */,
+				047D2AE01940D097008E6AA9 /* Images.xcassets */,
+				047D2ACF1940D096008E6AA9 /* Supporting Files */,
+			);
+			path = "Chalenge Test Udemy";
+			sourceTree = "<group>";
+		};
+		047D2ACF1940D096008E6AA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047D2AD01940D096008E6AA9 /* Chalenge Test Udemy-Info.plist */,
+				047D2AD11940D096008E6AA9 /* InfoPlist.strings */,
+				047D2AD41940D096008E6AA9 /* main.m */,
+				047D2AD61940D096008E6AA9 /* Chalenge Test Udemy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		047D2AED1940D097008E6AA9 /* Chalenge Test UdemyTests */ = {
+			isa = PBXGroup;
+			children = (
+				047D2AF31940D097008E6AA9 /* Chalenge_Test_UdemyTests.m */,
+				047D2AEE1940D097008E6AA9 /* Supporting Files */,
+			);
+			path = "Chalenge Test UdemyTests";
+			sourceTree = "<group>";
+		};
+		047D2AEE1940D097008E6AA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047D2AEF1940D097008E6AA9 /* Chalenge Test UdemyTests-Info.plist */,
+				047D2AF01940D097008E6AA9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047D2AC41940D096008E6AA9 /* Chalenge Test Udemy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047D2AF71940D097008E6AA9 /* Build configuration list for PBXNativeTarget "Chalenge Test Udemy" */;
+			buildPhases = (
+				047D2AC11940D096008E6AA9 /* Sources */,
+				047D2AC21940D096008E6AA9 /* Frameworks */,
+				047D2AC31940D096008E6AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chalenge Test Udemy";
+			productName = "Chalenge Test Udemy";
+			productReference = 047D2AC51940D096008E6AA9 /* Chalenge Test Udemy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047D2AE51940D097008E6AA9 /* Chalenge Test UdemyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047D2AFA1940D097008E6AA9 /* Build configuration list for PBXNativeTarget "Chalenge Test UdemyTests" */;
+			buildPhases = (
+				047D2AE21940D097008E6AA9 /* Sources */,
+				047D2AE31940D097008E6AA9 /* Frameworks */,
+				047D2AE41940D097008E6AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047D2AEC1940D097008E6AA9 /* PBXTargetDependency */,
+			);
+			name = "Chalenge Test UdemyTests";
+			productName = "Chalenge Test UdemyTests";
+			productReference = 047D2AE61940D097008E6AA9 /* Chalenge Test UdemyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047D2ABD1940D096008E6AA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CTU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = joiss;
+				TargetAttributes = {
+					047D2AE51940D097008E6AA9 = {
+						TestTargetID = 047D2AC41940D096008E6AA9;
+					};
+				};
+			};
+			buildConfigurationList = 047D2AC01940D096008E6AA9 /* Build configuration list for PBXProject "Chalenge Test Udemy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047D2ABC1940D096008E6AA9;
+			productRefGroup = 047D2AC61940D096008E6AA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047D2AC41940D096008E6AA9 /* Chalenge Test Udemy */,
+				047D2AE51940D097008E6AA9 /* Chalenge Test UdemyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047D2AC31940D096008E6AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D2AE11940D097008E6AA9 /* Images.xcassets in Resources */,
+				047D2AD31940D096008E6AA9 /* InfoPlist.strings in Resources */,
+				047D2ADC1940D097008E6AA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047D2AE41940D097008E6AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D2AF21940D097008E6AA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047D2AC11940D096008E6AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D2AD51940D096008E6AA9 /* main.m in Sources */,
+				047D2ADF1940D097008E6AA9 /* CTUViewController.m in Sources */,
+				047D2AD91940D096008E6AA9 /* CTUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047D2AE21940D097008E6AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D2AF41940D097008E6AA9 /* Chalenge_Test_UdemyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047D2AEC1940D097008E6AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047D2AC41940D096008E6AA9 /* Chalenge Test Udemy */;
+			targetProxy = 047D2AEB1940D097008E6AA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047D2AD11940D096008E6AA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047D2AD21940D096008E6AA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		047D2ADA1940D097008E6AA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047D2ADB1940D097008E6AA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047D2AF01940D097008E6AA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047D2AF11940D097008E6AA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047D2AF51940D097008E6AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		047D2AF61940D097008E6AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047D2AF81940D097008E6AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chalenge Test Udemy/Chalenge Test Udemy-Prefix.pch";
+				INFOPLIST_FILE = "Chalenge Test Udemy/Chalenge Test Udemy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		047D2AF91940D097008E6AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chalenge Test Udemy/Chalenge Test Udemy-Prefix.pch";
+				INFOPLIST_FILE = "Chalenge Test Udemy/Chalenge Test Udemy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		047D2AFB1940D097008E6AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chalenge Test Udemy.app/Chalenge Test Udemy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chalenge Test Udemy/Chalenge Test Udemy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chalenge Test UdemyTests/Chalenge Test UdemyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		047D2AFC1940D097008E6AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chalenge Test Udemy.app/Chalenge Test Udemy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chalenge Test Udemy/Chalenge Test Udemy-Prefix.pch";
+				INFOPLIST_FILE = "Chalenge Test UdemyTests/Chalenge Test UdemyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047D2AC01940D096008E6AA9 /* Build configuration list for PBXProject "Chalenge Test Udemy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047D2AF51940D097008E6AA9 /* Debug */,
+				047D2AF61940D097008E6AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047D2AF71940D097008E6AA9 /* Build configuration list for PBXNativeTarget "Chalenge Test Udemy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047D2AF81940D097008E6AA9 /* Debug */,
+				047D2AF91940D097008E6AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		047D2AFA1940D097008E6AA9 /* Build configuration list for PBXNativeTarget "Chalenge Test UdemyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047D2AFB1940D097008E6AA9 /* Debug */,
+				047D2AFC1940D097008E6AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047D2ABD1940D096008E6AA9 /* Project object */;
+}
