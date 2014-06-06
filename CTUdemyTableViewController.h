@@ -1,5 +1,5 @@
 //
-//  CTUViewController.h
+//  CTUdemyTableViewController.h
 //  Chalenge Test Udemy
 //
 //  Created by JoissDev on 05/06/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CTUViewController : UIViewController
+@interface CTUdemyTableViewController : UITableViewController
 
 @end

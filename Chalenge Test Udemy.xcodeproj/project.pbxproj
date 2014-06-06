@@ -14,13 +14,13 @@
 		047D2AD51940D096008E6AA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D2AD41940D096008E6AA9 /* main.m */; };
 		047D2AD91940D096008E6AA9 /* CTUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D2AD81940D096008E6AA9 /* CTUAppDelegate.m */; };
 		047D2ADC1940D097008E6AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047D2ADA1940D097008E6AA9 /* Main.storyboard */; };
-		047D2ADF1940D097008E6AA9 /* CTUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D2ADE1940D097008E6AA9 /* CTUViewController.m */; };
 		047D2AE11940D097008E6AA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047D2AE01940D097008E6AA9 /* Images.xcassets */; };
 		047D2AE81940D097008E6AA9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047D2AE71940D097008E6AA9 /* XCTest.framework */; };
 		047D2AE91940D097008E6AA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047D2AC81940D096008E6AA9 /* Foundation.framework */; };
 		047D2AEA1940D097008E6AA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047D2ACC1940D096008E6AA9 /* UIKit.framework */; };
 		047D2AF21940D097008E6AA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 047D2AF01940D097008E6AA9 /* InfoPlist.strings */; };
 		047D2AF41940D097008E6AA9 /* Chalenge_Test_UdemyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D2AF31940D097008E6AA9 /* Chalenge_Test_UdemyTests.m */; };
+		047D2AFF1940D74E008E6AA9 /* CTUdemyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D2AFE1940D74E008E6AA9 /* CTUdemyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		047D2AD71940D096008E6AA9 /* CTUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTUAppDelegate.h; sourceTree = "<group>"; };
 		047D2AD81940D096008E6AA9 /* CTUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTUAppDelegate.m; sourceTree = "<group>"; };
 		047D2ADB1940D097008E6AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		047D2ADD1940D097008E6AA9 /* CTUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTUViewController.h; sourceTree = "<group>"; };
-		047D2ADE1940D097008E6AA9 /* CTUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTUViewController.m; sourceTree = "<group>"; };
 		047D2AE01940D097008E6AA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		047D2AE61940D097008E6AA9 /* Chalenge Test UdemyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chalenge Test UdemyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047D2AE71940D097008E6AA9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		047D2AEF1940D097008E6AA9 /* Chalenge Test UdemyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chalenge Test UdemyTests-Info.plist"; sourceTree = "<group>"; };
 		047D2AF11940D097008E6AA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		047D2AF31940D097008E6AA9 /* Chalenge_Test_UdemyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chalenge_Test_UdemyTests.m; sourceTree = "<group>"; };
+		047D2AFD1940D74E008E6AA9 /* CTUdemyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTUdemyTableViewController.h; path = ../CTUdemyTableViewController.h; sourceTree = "<group>"; };
+		047D2AFE1940D74E008E6AA9 /* CTUdemyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTUdemyTableViewController.m; path = ../CTUdemyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				047D2AD71940D096008E6AA9 /* CTUAppDelegate.h */,
+				047D2AFD1940D74E008E6AA9 /* CTUdemyTableViewController.h */,
+				047D2AFE1940D74E008E6AA9 /* CTUdemyTableViewController.m */,
 				047D2AD81940D096008E6AA9 /* CTUAppDelegate.m */,
 				047D2ADA1940D097008E6AA9 /* Main.storyboard */,
-				047D2ADD1940D097008E6AA9 /* CTUViewController.h */,
-				047D2ADE1940D097008E6AA9 /* CTUViewController.m */,
 				047D2AE01940D097008E6AA9 /* Images.xcassets */,
 				047D2ACF1940D096008E6AA9 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				047D2AD51940D096008E6AA9 /* main.m in Sources */,
-				047D2ADF1940D097008E6AA9 /* CTUViewController.m in Sources */,
+				047D2AFF1940D74E008E6AA9 /* CTUdemyTableViewController.m in Sources */,
 				047D2AD91940D096008E6AA9 /* CTUAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
